@@ -1,0 +1,102 @@
+Total Records: 9
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5288384.pdf
+Id: 3:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5288384
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6781075
+  Items: intravascular lithotripsy balloon coronary angioplasty 2.5 x 15,intravascular lithotripsy balloon c
+  Quantity: 36
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 23-08-2024 1:00 PM
+  End Date: 13-09-2024 1:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5248748.pdf
+Id: 8:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5248748
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6737482
+  Items: Coronary Stent 2.75 mm 4th Generation Cobalt Chromium Eluting
+  Quantity: 12
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 29-08-2024 12:04 PM
+  End Date: 19-09-2024 1:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5244868.pdf
+Id: 4:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5244868
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6733198
+  Items: Coronary Stent 3.0 mm 4th Generation Cobalt Chromium Everolimus Eluting,Coronary Stent 3.0 mm 4th G
+  Quantity: 48
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 26-08-2024 11:20 AM
+  End Date: 16-09-2024 12:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5222505.pdf
+Id: 7:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5222505
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6708829
+  Items: 336 kV LA along with base insulator, earthing cable, surge monitor, corona ring and adaptor stools
+  Quantity: 28
+  Department Name and Address: Ministry of Power, POWER GRID Corporation OF INDIA Limited
+  Start Date: 13-08-2024 9:43 AM
+  End Date: 18-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5242051.pdf
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5205380.pdf
+Id: 5:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5242051
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6730120
+  Items: Drug Eluting Coronary Balloon with Urea Paclitaxel coating 2.0 mm X assorted lengths,Drug Eluting C
+  Quantity: 36
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 26-08-2024 11:18 AM
+  End Date: 16-09-2024 12:00 PM
+----------------------------------------------------------------------------------------------------
+Id: 1:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5205380
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6689936
+  Items: Intra Vascular Lithotripsy Balloon for Coronary usage in highly calcified Lesions, assorted sizes
+  Quantity: 15
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 10-08-2024 1:44 PM
+  End Date: 12-09-2024 9:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5208432.pdf
+Id: 2:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5208432
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6693233
+  Items: Vaccine DHPPi with diluent for dogs 1ml,Vaccine Leptospirosis for dogs 1ml,Vaccine Rabies for dogs
+  Quantity: 2154
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 22-08-2024 7:22 PM
+  End Date: 12-09-2024 8:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5222622.pdf
+Id: 6:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5222622
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6708955
+  Items: 216 kV LA along with base insulator, earthing cable, surge monitor, corona ring and adaptor stools
+  Quantity: 28
+  Department Name and Address: Ministry of Power, POWER GRID Corporation OF INDIA Limited
+  Start Date: 13-08-2024 9:49 AM
+  End Date: 18-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/corona/BID/GEM/2024/B/5288543.pdf
+Id: 9:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5288543
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6781248
+  Items: intravascular lithotripsy balloon coronary angioplasty 2.5 x 15,intravascular lithotripsy balloon c
+  Quantity: 36
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 03-09-2024 10:50 AM
+  End Date: 25-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+All records have been successfully extracted.
+Total elapsed time: 64.75 seconds

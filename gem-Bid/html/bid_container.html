@@ -1,0 +1,114 @@
+<div class="container">
+        <div class="row search" style="display: block;">
+        <div class="col-md-7 pull-left">
+            <span class="page_title">Bid Listing</span>
+                        <span id="old_bid_dash"><a href="/advance-search">&nbsp;&nbsp;Advance Search <i class="fa fa-external-link" aria-hidden="true"></i></a> </span>
+        </div>
+        <div class="col-md-5 pull-right">
+            <div data-toggle="popover" class="pull-left" data-trigger="hover" data-placement="bottom" data-html="true" data-content="Bid Number, Department Name, Ministry Name, Items, BOQ Title,<br/> Category Name, Consignee Location (City and State) can be searched here.<br/><br/><b>Contains:</b> This will help you to find all the Bid/RA with keyword entered in the search box any where in any search parameters. <br/><b>Exact Search:</b> This will help you find the Bid/RA with the exact string of keywords entered in the search box. <br/><br/>It may take up to 15 mins to reflect newly published bids or modified bids to show up in search results." data-original-title="" title="">
+                <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;
+            </div>
+            <div class="input-group">
+            <div class="input-group-btn">
+                <button type="button" class="btn  btn-default dropdown-toggle searchtype" data-toggle="dropdown">
+                    <span id="search_concept">Contains</span> <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a onclick="searchType('fullText')">Contains</a></li>
+                    <li class="last-style"><a onclick="searchType('exact')">Exact Search</a></li>
+                    </ul>
+            </div>
+                <input type="search" class="form-control" id="searchBid" name="searchBid" placeholder="Enter Keyword" value="" autocomplete="off">
+                <div class="clearfix"></div>
+                <span class="filterError" id="searchError"></span>
+                <span class="input-group-btn">
+                    <button class="btn btn-default search_btn" id="searchBidRA" type="button" style="font-size:17px;"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div> 
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="alert alert-info custom-alert-css" role="alert">
+        It may take up to 15 mins to reflect newly published bids or any modification in bids to show  up in search results.    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+        <div class="col-md-2 sidefilter" style="display: block;">
+            <h3 class="grid-title filterhead"><i class="fa fa-filter"></i> Filters</h3>
+            <button class="btn btn-link btn-sm pull-right" onclick="clearAll()" style="cursor: pointer;">Reset</button>
+            <div class="clearfix"></div>
+            <hr style="color:#0F5E8B;border:1px solid;">
+            <div class="checkbox">
+                <label><input type="checkbox" id="ongoing_bids" onclick="bidStatusTypeFilter('ongoing_bids')" class="icheck by_status_type">Ongoing Bids/RA</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" id="bidrastatus" onclick="bidStatusTypeFilter('bidrastatus')" class="icheck by_status_type">Bid/RA Status</label>
+            </div>
+            
+            <div class="filtermargin"></div>
+            
+            <h4>By Bid Type:</h4>
+            <div class="checkbox">
+                <label><input type="checkbox" id="all" onclick="typeFilter('all')" class="icheck by_type"> All Bid/RAs</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" id="product" onclick="typeFilter('product')" class="icheck by_type"> Product Bid/RAs</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" onclick="typeFilter('service')" id="service" class="icheck by_type"> Service Bid/RAs</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" onclick="typeFilter('bidToRA')" id="bidToRA" class="icheck by_type"> Bid To RAs</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" onclick="typeFilter('custom')" id="custom" class="icheck by_type"> Product Custom Bid/RAs</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" onclick="typeFilter('boq')" id="boq" class="icheck by_type"> BOQ Bids</label>
+            </div>
+            
+            <div class="filtermargin"></div>
+
+            <h4>By Bid Value:</h4>
+            <div class="checkbox">
+                <label><input type="checkbox" onclick="typeFilterHighBid('highValue')" id="highValue" class="icheck by_type"> High Value Bids<span data-toggle="tooltip" data-placement="top" title="Bids where buyer mentioned the estimated bid 
+value equal to or greater than Rs 2 Cr">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                </span></label>
+            </div>
+
+            <div class="filtermargin"></div>
+            
+            <h4 class="bidrastatus" style="display: none;">By Bid/RA Status:</h4>
+            <div class="checkbox bidrastatus" style="display: none;">
+                <label><input type="checkbox" id="tech_evaluated" onclick="bidStatusFilter('tech_evaluated')" class="icheck by_status" disabled="disabled"> Technical Evaluated</label>
+            </div>
+            <div class="checkbox bidrastatus" style="display: none;">
+                <label><input type="checkbox" id="fin_evaluated" onclick="bidStatusFilter('fin_evaluated')" class="icheck by_status" disabled="disabled"> Financial Evaluated</label>
+            </div>
+            <div class="checkbox bidrastatus" style="display: none;">
+                <label><input type="checkbox" id="bid_awarded" onclick="bidStatusFilter('bid_awarded')" class="icheck by_status" disabled="disabled"> Bid /RA Awarded</label>
+            </div>
+
+            <div class="filtermargin"></div>
+
+            <h5>Bid End Date (From):</h5>
+            <div class="input-group date">
+                <input type="text" id="fromEndDate" onchange="endDateFilter()" class="form-control datepicker hasDatepicker" autocomplete="off">
+                <span class="input-group-addon bg-blue"><i class="glyphicon glyphicon-calendar"></i></span>
+            </div>
+            
+            <p class="filterError" id="fromEndDateError"></p>
+            <div class="filtermargin"></div>
+            <h5>Bid End Date (To):</h5>
+            <div class="input-group date">
+                <input type="text" id="toEndDate" onchange="endDateFilter()" class="form-control datepicker hasDatepicker" autocomplete="off">
+                <span class="input-group-addon bg-blue"><i class="glyphicon glyphicon-calendar"></i></span>
+            </div>
+            <p class="filterError" id="toEndDateError"></p>
+            <div class="filtermargin"></div>
+            <div class="filtermargin"></div>
+        </div>
+        
+        <div class="col-md-10 bids" id="bidCard"><div class="row row-flex"><div class="col-md-6 totalRecord"><span class="pos-bottom">Showing 39201 - 39202 records of 39202 records</span></div><div class="col-md-6"><div class="dropdown sort">Sort by:&nbsp;<button class="btn dropdown-toggle sort_button" type="button" id="currentSort" data-toggle="dropdown">Bid End Date: Oldest First&nbsp;&nbsp;<span class="caret"></span></button><ul class="dropdown-menu"><li><a id="Bid-Start-Date-Latest" onclick="sort(`Bid-Start-Date-Latest`)">Bid Start Date: Latest First</a></li><li><a id="Bid-Start-Date-Oldest" onclick="sort(`Bid-Start-Date-Oldest`)">Bid Start Date: Oldest First</a></li><li><a id="Bid-End-Date-Latest" onclick="sort(`Bid-End-Date-Latest`)">Bid End Date: Latest First</a></li><li><a id="Bid-End-Date-Oldest" onclick="sort(`Bid-End-Date-Oldest`)">Bid End Date: Oldest First</a></li></ul></div></div></div><div class="card"><div class="block_header"><p class="bid_no pull-left"><span class="bid_title">BID NO:&nbsp;</span><a class="bid_no_hover" href="/showbidDocument/5615045" target="_blank">GEM/2023/B/4225893</a></p><p class="pull-right otherDetails" id="other-details-5615045" data-bid="5615045" onclick="getOtherDetails(5615045)"><a><i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;View Corrigendum/Representation</a></p></div><div class="clearfix"></div><div class="card-body"><div class="row"><div class="col-md-4"><div class="row"><strong>Items:</strong>&nbsp;Generator Set 15 KVA</div><div class="row"><strong>Quantity:</strong>&nbsp;1</div></div><div class="col-md-5"><div class="row"><strong>Department Name And Address:</strong>&nbsp;</div><div class="row">Ministry of Defence<br>Department of Military Affairs</div></div><div class="col-md-3"><div class="row"><strong>Start Date:</strong>&nbsp;<span class="start_date">23-11-2023 2:26 PM</span></div><div class="row"><strong>End Date:</strong>&nbsp;&nbsp;&nbsp;<span class="end_date">18-07-2025 3:00 PM</span></div></div><div class="clearfix"></div></div></div></div><div class="card"><div class="block_header"><p class="bid_no pull-left"><span class="bid_title">BID NO:&nbsp;</span><a class="bid_no_hover" href="/showbidDocument/6082584" target="_blank">GEM/2024/B/4654131</a></p><p class="pull-right otherDetails" id="other-details-6082584" data-bid="6082584" onclick="getOtherDetails(6082584)"><a><i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;View Corrigendum/Representation</a></p></div><div class="clearfix"></div><div class="card-body"><div class="row"><div class="col-md-4"><div class="row"><strong>Items:</strong>&nbsp;<a data-toggle="popover" title="" data-trigger="hover" data-content="Manpower Outsourcing Services - Fixed Remuneration - ADDIONAL PROGRAM OFFICER; ADDIONAL PROGRAM OFF" data-original-title="">Manpower Outsourcing Services ...</a></div><div class="row"><strong>Quantity:</strong>&nbsp;63</div></div><div class="col-md-5"><div class="row"><strong>Department Name And Address:</strong>&nbsp;</div><div class="row">Rural Development Department Uttar Pradesh</div></div><div class="col-md-3"><div class="row"><strong>Start Date:</strong>&nbsp;<span class="start_date">20-02-2024 4:51 PM</span></div><div class="row"><strong>End Date:</strong>&nbsp;&nbsp;&nbsp;<span class="end_date">23-07-2025 9:00 AM</span></div></div><div class="clearfix"></div></div></div></div><div class="clearfix"></div><div id="light-pagination" class="pagination2 light-theme"><a href="#page-3920" class="page-link prev">Prev</a><a href="#page-1" class="page-link">1</a><a href="#page-2" class="page-link">2</a><span class="ellipse">…</span><a href="#page-3917" class="page-link">3917</a><a href="#page-3918" class="page-link">3918</a><a href="#page-3919" class="page-link">3919</a><a href="#page-3920" class="page-link">3920</a><span class="current">3921</span><span class="current next">Next</span></div></div>
+    </div>
+</div>

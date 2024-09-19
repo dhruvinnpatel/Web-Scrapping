@@ -1,0 +1,179 @@
+Total Records: 16
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5324375.pdf
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5310910.pdf
+Id: 6:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5324375
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6820932
+  Items: Custom Bid for Services - AMC of Desktops Printers Scanners  Hiring services of Website portal
+  Quantity: 1
+  Department Name and Address: Ministry of Housing & Urban Affairs (MoHUA), HUDCO
+  Start Date: 24-08-2024 1:09 PM
+  End Date: 16-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5311750.pdf
+Id: 2:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5310910
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6806115
+  Items: Custom Bid for Services - Upgradation of Website
+  Quantity: 1
+  Department Name and Address: Ministry of Education, Department of Higher Education
+  Start Date: 21-08-2024 12:21 PM
+  End Date: 11-09-2024 3:00 PM
+----------------------------------------------------------------------------------------------------
+Id: 7:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5311750
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6807026
+  Items: Website Application Security Platform Software
+  Quantity: 2
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 21-08-2024 4:04 PM
+  End Date: 17-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5357234.pdf
+Id: 1:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5357234
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6857870
+  Items: Examination Service - Online; Question Paper Design, Provision of Venue, Question Paper Hosting on
+  Quantity: 30
+  Department Name and Address: Ministry of Railways, Indian Railways
+  Start Date: 04-09-2024 11:02 AM
+  End Date: 11-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5309974.pdf
+Id: 8:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5309974
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6805100
+  Items: Website Application Security Platform Software
+  Quantity: 2
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 21-08-2024 3:16 PM
+  End Date: 17-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5321675.pdf
+Id: 4:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5321675
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6817935
+  Items: Secquirty AWS,Analysis AWS,Document AWS,Certifcate AWS,Vunerabaility AWS,Secquirty Dashboard,Analys
+  Quantity: 15
+  Department Name and Address: Ministry of Earth Sciences, India Meteorological Department (IMD)
+  Start Date: 23-08-2024 4:18 PM
+  End Date: 14-09-2024 5:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5375752.pdf
+Id: 10:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5375752
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6878354
+  Items: Cyber Security Audit - Security Audit of Website
+  Quantity: 1
+  Department Name and Address: Ministry of Science and Technology, Department of Science and Technology (DST)
+  Start Date: 09-09-2024 3:17 PM
+  End Date: 19-09-2024 12:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5335163.pdf
+Id: 9:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5335163
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6833046
+  Items: Custom Bid for Services - Revamping of Website of PCDA O Pune
+  Quantity: 1
+  Department Name and Address: Ministry of Defence, Department of Defence
+  Start Date: 28-08-2024 6:02 PM
+  End Date: 18-09-2024 6:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5322372.pdf
+Id: 3:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5322372
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6818690
+  Items: Examination Service - Online; Question Paper Design, Candidate Registration, Payment Process to be
+  Quantity: 9500
+  Department Name and Address: Ministry of Education, Department of Higher Education
+  Start Date: 27-08-2024 5:41 PM
+  End Date: 11-09-2024 6:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5316834.pdf
+Id: 5:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5316834
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6812577
+  Items: Examination Service - Online; Question Paper Design, Provision of Venue, Question Paper Hosting on
+  Quantity: 10000
+  Department Name and Address: Medical Education Department Uttar Pradesh
+  Start Date: 24-08-2024 2:11 PM
+  End Date: 14-09-2024 5:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5339873.pdf
+Id: 12:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5339873
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6838264
+  Items: Website Application Security Platform Software
+  Quantity: 1
+  Department Name and Address: PMO, Department of Atomic Energy
+  Start Date: 06-09-2024 2:45 PM
+  End Date: 27-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5349642.pdf
+Id: 14:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5349642
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6849338
+  Items: Custom Bid for Services - Security Audit of Territorial Army Official Website wwwjointerritorialarm
+  Quantity: 1
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 09-09-2024 1:39 PM
+  End Date: 30-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5339941.pdf
+Id: 11:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5339941
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6838334
+  Items: Development of Web Portal for ERNET India Website & Its Services
+  Quantity: 1
+  Department Name and Address: Ministry of Electronics and Information Technology, Department of Electronics and Information Technology
+  Start Date: 30-08-2024 12:45 PM
+  End Date: 20-09-2024 5:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5367337.pdf
+Id: 13:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5367337
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6868959
+  Items: U T OFFICER PROCEEDING ASHORE BOOK,SENIOR SAILOR OUTLIVING PROCEEDING ASHORE BOOK,SENIOR SAILOR INL
+  Quantity: 313
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 06-09-2024 11:28 AM
+  End Date: 27-09-2024 12:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5376491.pdf
+Id: 15:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5376491
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6879231
+  Items: Custom Bid for Services - Comprehensive Annual Maintenance Contract CAMC of Hardware and Software o
+  Quantity: 1
+  Department Name and Address: Ministry of Earth Sciences, Department of Earth Sciences
+  Start Date: 09-09-2024 3:06 PM
+  End Date: 30-09-2024 3:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/website/BID/GEM/2024/B/5367110.pdf
+Id: 16:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5367110
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6868706
+  Items: Examination Service - Online; Question Paper Design, Candidate Registration, Payment Process to be
+  Quantity: 500000
+  Department Name and Address: Ministry of AYUSH, NA
+  Start Date: 05-09-2024 8:17 PM
+  End Date: 07-10-2024 9:00 PM
+----------------------------------------------------------------------------------------------------
+All records have been successfully extracted.
+Total elapsed time: 67.51 seconds

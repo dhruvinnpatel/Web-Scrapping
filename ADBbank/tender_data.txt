@@ -1,0 +1,279 @@
+Id: 1
+Title: National Finance and Economic Specialist
+Link: https://www.adb.org/node/997021
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 53190-001; Regional; Water and other urban infrastructure and services; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 2
+Title: Accelerating Climate Transitions through Green Finance in Southeast Asia - ASEAN Climate Finance Policy Platform Manager
+Link: https://www.adb.org/node/997016
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 56186-001; Regional; Finance; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 3
+Title: Procurement Consultant
+Link: https://www.adb.org/node/997011
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 52335-002; Regional; Health; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 4
+Title: Gender Specialist
+Link: https://www.adb.org/node/997006
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 52335-002; Regional; Health; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 5
+Title: Horticulture Expert (Institutional Development and/or Plant Virology)
+Link: https://www.adb.org/node/997001
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 57198-001; India; Agriculture, natural resources and rural development; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 6
+Title: Horticulture Expert and Project Coordinator
+Link: https://www.adb.org/node/996996
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 57198-001; India; Agriculture, natural resources and rural development; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 7
+Title: Digital and Leadership Skills Training Program for Credo Bank Managers
+Link: https://www.adb.org/node/996991
+Status: Active
+Deadline: 03 Oct 2024
+Summary: 57137-002; Georgia; Finance; Posting date: 19 Sep 2024
+Notice Type: Firm - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 8
+Title: Development of the detailed engineering project for the construction and restoration of five existing canals and one ten-day regulation basin located in Chui, Osh, Jalal-Abad and Batken regions
+Link: https://www.adb.org/node/996986
+Status: Active
+Deadline: 19 Oct 2024
+Summary: 51081-002; Kyrgyz Republic; Agriculture, natural resources and rural development; Posting date: 19 Sep 2024
+Notice Type: Firm - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 9
+Title: Gender Officer
+Link: https://www.adb.org/node/995501
+Status: Active
+Deadline: 21 Sep 2024
+Summary: 49450-021; Kiribati; Energy; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 10
+Title: Plant Pathologist (Senior Scientist)
+Link: https://www.adb.org/node/996981
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 57198-001; India; Agriculture, natural resources and rural development; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 11
+Title: Plant Pathologist (Young Professional)
+Link: https://www.adb.org/node/996976
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 57198-001; India; Agriculture, natural resources and rural development; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 12
+Title: TA Coordination and Administration Specialist (Natl)
+Link: https://www.adb.org/node/996971
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 58125-002; Uzbekistan; Public sector management; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 13
+Title: International Innovation Specialist (Economic Value Chain Analysis) to support PHI PRISTINE
+Link: https://www.adb.org/node/995291
+Status: Active
+Deadline: 21 Sep 2024
+Summary: 52335-002; Regional; Health; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 14
+Title: Backend Developer
+Link: https://www.adb.org/node/995711
+Status: Active
+Deadline: 23 Sep 2024
+Summary: 52335-003; Regional; Education; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 15
+Title: Frontend Developer
+Link: https://www.adb.org/node/995686
+Status: Active
+Deadline: 23 Sep 2024
+Summary: 52335-003; Regional; Education; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 16
+Title: Concept and Feasibility Study for EcoMobility in Dushanbe
+Link: https://www.adb.org/node/996966
+Status: Active
+Deadline: 02 Nov 2024
+Summary: 58270-002 Posting date: 19 Sep 2024
+Notice Type: Firm - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 17
+Title: Social Safeguards Officer
+Link: https://www.adb.org/node/995481
+Status: Active
+Deadline: 21 Sep 2024
+Summary: 49450-021; Kiribati; Energy; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 18
+Title: Data Expert - Kompanion Bank
+Link: https://www.adb.org/node/994241
+Status: Active
+Deadline: 02 Oct 2024
+Summary: 54250-001; Regional; Finance; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 19
+Title: Financial Management Specialist
+Link: https://www.adb.org/node/996961
+Status: Active
+Deadline: 25 Sep 2024
+Summary: 52335-002; Regional; Health; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 20
+Title: Communications Specialist
+Link: https://www.adb.org/node/996956
+Status: Active
+Deadline: 02 Oct 2024
+Summary: 57050-001; Indonesia; Energy; Posting date: 19 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 21
+Title: 4454/0949-KGZ: Issyk-Kul Environmental Management for Sustainable Tourism Development Project
+Link: https://www.adb.org/node/996756
+Status: Active
+Deadline: 30 Oct 2024
+Summary: 55250-001; Kyrgyz Republic; Water and other urban infrastructure and services; Posting date: 18 Sep 2024
+Notice Type: Tenders, Invitation for Bids
+Approval Number: 4454/0949
+====================================================================================================
+Id: 22
+Title: Tripura Industrial Infrastructure Sector Development Program (Package 1,2,3,22)
+Link: https://www.adb.org/node/996921
+Status: Active
+Deadline: 07 Nov 2024
+Summary: 58021-001; India; Industry and trade; Posting date: 18 Sep 2024
+Notice Type: Invitation for Bids
+Approval Number: OCR/OCR
+====================================================================================================
+Id: 23
+Title: Tripura Industrial Infrastructure Sector Development Program (Package 4,5,6,7)
+Link: https://www.adb.org/node/996916
+Status: Active
+Deadline: 07 Nov 2024
+Summary: 58021-001; India; Industry and trade; Posting date: 18 Sep 2024
+Notice Type: Invitation for Bids
+Approval Number: OCR/OCR
+====================================================================================================
+Id: 24
+Title: Sindh Secondary Education Improvement Project –Additional Financing
+Link: https://www.adb.org/node/996856
+Status: Tender, Active
+Deadline: 21 Oct 2024
+Summary: Posting date: 18 Sep 2024
+Notice Type: Tenders, Invitation for Bids
+Approval Number: 4409-PAK
+====================================================================================================
+Id: 25
+Title: Sindh Secondary Education Improvement Project – Additional Financing
+Link: https://www.adb.org/node/996851
+Status: Tender, Active
+Deadline: 21 Oct 2024
+Summary: Posting date: 18 Sep 2024
+Notice Type: Tenders, Invitation for Bids
+Approval Number: 4409-PAK
+====================================================================================================
+Id: 26
+Title: Sindh Secondary Education Improvement Project – Additional Financing
+Link: https://www.adb.org/node/996841
+Status: Tender, Active
+Deadline: 21 Oct 2024
+Summary: Posting date: 18 Sep 2024
+Notice Type: Tenders, Invitation for Bids
+Approval Number: 4409-PAK
+====================================================================================================
+Id: 27
+Title: Sindh Secondary Education Improvement Project – Additional Financing
+Link: https://www.adb.org/node/996831
+Status: Tender, Active
+Deadline: 21 Oct 2024
+Summary: Posting date: 18 Sep 2024
+Notice Type: Invitation for Bids
+Approval Number: 4409-PAK
+====================================================================================================
+Id: 28
+Title: G0878-CAM: Energy Transition Sector Development Project
+Link: https://www.adb.org/node/996821
+Status: Active
+Deadline: 01 Nov 2024
+Summary: 54430-001; Cambodia; Energy; Posting date: 18 Sep 2024
+Notice Type: Tenders, Invitation for Bids
+Approval Number: 0878
+====================================================================================================
+Id: 29
+Title: SRI Digitization specialist
+Link: https://www.adb.org/node/994086
+Status: Active
+Deadline: 24 Sep 2024
+Summary: 55064-003; Regional; Water and other urban infrastructure and services; Posting date: 18 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 30
+Title: Macroeconomist/Development Economist- Tajikistan Diagnostic Study
+Link: https://www.adb.org/node/989041
+Status: Active
+Deadline: 20 Sep 2024
+Summary: 46186-008; Regional; Public sector management; Posting date: 18 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================
+Id: 31
+Title: Senior Mathematics Curriculum Specialist (Math 2: Statistics, Probability and Calculus)
+Link: https://www.adb.org/node/984351
+Status: Active
+Deadline: 24 Sep 2024
+Summary: 45089-003; Philippines; Education; Posting date: 18 Sep 2024
+Notice Type: Individual - Consulting
+Approval Number: N/A
+====================================================================================================

@@ -1,0 +1,347 @@
+Total Records: 118
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5265028.pdf
+Id: 1:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5265028
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6755345
+  Items: Design Development and Supply of HeART processing unit,Application Software,SOFT Qualification,QT,N
+  Quantity: 8
+  Department Name and Address: Ministry of Defence, Department of Defence Research & Development
+  Start Date: 12-08-2024 1:29 PM
+  End Date: 10-09-2024 6:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5373798.pdf
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5334777.pdf
+Id: 5:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5334777
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6832624
+  Items: Internal Combustion Engine Crankcase Oils for Automotive Application (Diesel and gasoline) as per I
+  Quantity: 420
+  Department Name and Address: PMO, Department of Atomic Energy
+  Start Date: 29-08-2024 2:30 PM
+  End Date: 11-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Id: 2:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5373798
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6876100
+  Items: Desktop And Application Virtualisation Software
+  Quantity: 20
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 07-09-2024 7:59 PM
+  End Date: 10-09-2024 8:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5040266.pdf
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5311407.pdf
+Id: 7:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5311407
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6806651
+  Items: Flex banner 6x3 sq ft for world environment,Self ink stamp,Sticker Golden,Sticker,Transparent stamp
+  Quantity: 47572
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 21-08-2024 1:21 PM
+  End Date: 11-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5330566.pdf
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5311231.pdf
+Id: 8:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5311231
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6806462
+  Items: parraffin Liq in bottle of 100 milli liter vet med,inj b 12 500 mg per milli litter,ear drop contai
+  Quantity: 428
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 21-08-2024 1:17 PM
+  End Date: 11-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Id: 6:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5330566
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6827974
+  Items: Water Sprinkler Application Mounted on Water Truck Cabin Truck with Water Tank
+  Quantity: 1
+  Department Name and Address: Municipal Affairs Department West Bengal
+  Start Date: 27-08-2024 2:53 PM
+  End Date: 11-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5089083.pdf
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5207804.pdf
+Downloaded RA file: /home/dhruvin/Web-Scrapping/keyword_search/application/RA/GEM/2024/R/380783.pdf
+Id: 3:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5040266
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6508548
+  RA No.: GEM/2024/R/380783
+  RA No. Link: https://bidplus.gem.gov.in/showradocumentPdf/6877856
+  Items: supply of Virtual Reality Headset with Graphics Card for Extended Reality Application
+  Quantity: 1
+  Department Name and Address: Ministry of Defence, Department of Defence Research & Development
+  Start Date: 10-09-2024 11:00 AM
+  End Date: 11-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded RA file: /home/dhruvin/Web-Scrapping/keyword_search/application/RA/GEM/2024/R/381025.pdf
+Id: 9:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5089083
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6562069
+  RA No.: GEM/2024/R/381025
+  RA No. Link: https://bidplus.gem.gov.in/showradocumentPdf/6879466
+  Items: Cyber Security Audit - comprehensive Security Audit of  critical application and Database
+  Quantity: 1
+  Department Name and Address: Ministry of Defence, Department of Defence
+  Start Date: 10-09-2024 2:00 PM
+  End Date: 11-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded RA file: /home/dhruvin/Web-Scrapping/keyword_search/application/RA/GEM/2024/R/380756.pdf
+Id: 10:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5207804
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6692524
+  RA No.: GEM/2024/R/380756
+  RA No. Link: https://bidplus.gem.gov.in/showradocumentPdf/6877714
+  Items: Ceiling Mounted Microphone array with voicelifting facility for Local Audio and Video Conferencing
+  Quantity: 26
+  Department Name and Address: Ministry of Steel, Steel Authority of India Limited
+  Start Date: 10-09-2024 10:00 AM
+  End Date: 11-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5208908.pdf
+Downloaded RA file: /home/dhruvin/Web-Scrapping/keyword_search/application/RA/GEM/2024/R/380677.pdf
+Id: 4:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5208908
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6693757
+  RA No.: GEM/2024/R/380677
+  RA No. Link: https://bidplus.gem.gov.in/showradocumentPdf/6877346
+  Items: Custom Bid for Services - Recertification  Certification Audit Charges towards Renewal   New Certif
+  Quantity: 4
+  Department Name and Address: Ministry of Defence, Department of Defence Production
+  Start Date: 10-09-2024 9:00 AM
+  End Date: 11-09-2024 1:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5327656.pdf
+Id: 11:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5327656
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6824652
+  Items: Supply of Controller Hardware for EV Charger Application
+  Quantity: 1
+  Department Name and Address: Ministry of Heavy Industries and Public Enterprises, Department of Heavy Industry
+  Start Date: 27-08-2024 10:24 AM
+  End Date: 11-09-2024 3:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5231121.pdf
+Id: 18:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5231121
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6718219
+  Items: Supply of unsaturated polyster resin as per annexure attached,Supply of Chopped strand fiber glass
+  Quantity: 9050
+  Department Name and Address: PMO, Department of Atomic Energy
+  Start Date: 22-08-2024 4:21 PM
+  End Date: 12-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5275886.pdf
+Id: 16:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5275886
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6767207
+  Items: harmonic hand piece 220v,harmonic transducer handpiece blue,disposable laproscopic 5mm clip applica
+  Quantity: 161
+  Department Name and Address: Ministry of Defence, Department of Military Affairs
+  Start Date: 22-08-2024 9:54 AM
+  End Date: 12-09-2024 10:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5292093.pdf
+Id: 12:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5292093
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6785063
+  Items: Hiring of Professionals for Application Development and Maintenance - Database related roles; Datab
+  Quantity: 9
+  Department Name and Address: Ministry of Personnel Public Grievances and Pensions, Department of Personnel and Training
+  Start Date: 21-08-2024 4:43 PM
+  End Date: 11-09-2024 5:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5307894.pdf
+Id: 13:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5307894
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6802814
+  Items: 3D animation on working principle & application of Neutron Scattering
+  Quantity: 1
+  Department Name and Address: PMO, Department of Atomic Energy
+  Start Date: 22-08-2024 10:18 AM
+  End Date: 12-09-2024 9:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5232455.pdf
+Id: 17:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5232455
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6719648
+  Items: Supply and application of RTV Silicon High Voltage Insulator Coating (HVIC)
+  Quantity: 1
+  Department Name and Address: Ministry of Power, POWER GRID Corporation OF INDIA Limited
+  Start Date: 13-08-2024 1:56 PM
+  End Date: 12-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5157935.pdf
+Id: 20:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5157935
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6637929
+  Items: 25 Kv Pantograph Base Insulator non-porcelain type for outdoor application
+  Quantity: 210
+  Department Name and Address: Ministry of Housing & Urban Affairs (MoHUA), Chennai Metro Rail Ltd
+  Start Date: 26-07-2024 10:26 AM
+  End Date: 12-09-2024 3:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5332340.pdf
+Id: 19:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5332340
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6829932
+  Items: SUPPLY OF TORPEDO LADLE REFRACTORIES,APPLICATION OF TORPEDO LADLE REFRACTORIES
+  Quantity: 4
+  Department Name and Address: Ministry of Steel, Steel Authority of India Limited
+  Start Date: 28-08-2024 10:59 AM
+  End Date: 12-09-2024 3:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5304087.pdf
+Id: 14:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5304087
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6798516
+  Items: Web Application Vulnerability Scanner Software
+  Quantity: 1
+  Department Name and Address: PMO, Department of space
+  Start Date: 21-08-2024 10:43 AM
+  End Date: 12-09-2024 9:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5306597.pdf
+Id: 15:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5306597
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6801359
+  Items: M9481992355,M9470486085,M9470486601,M9470000389,M9470011198,M9470000422,M9470000421,M9470486562,M94
+  Quantity: 144
+  Department Name and Address: Ministry of Power, BHARATIYA RAIL BIJLEE Company Limited
+  Start Date: 22-08-2024 11:07 AM
+  End Date: 12-09-2024 9:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5240818.pdf
+Id: 23:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5240818
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6728762
+  Items: Hiring of Professionals for Application Development and Maintenance - As per attached ATC; As per a
+  Quantity: 1
+  Department Name and Address: Ministry of Urban Development, NA
+  Start Date: 02-08-2024 2:40 PM
+  End Date: 12-09-2024 6:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5319637.pdf
+Id: 26:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5319637
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6815699
+  Items: Turbine Lubricating Oil as per IS 1012,Lithium Base Grease for Industrial Purposes as per IS 7623,I
+  Quantity: 5012
+  Department Name and Address: PMO, Department of Atomic Energy
+  Start Date: 26-08-2024 1:00 PM
+  End Date: 13-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5127791.pdf
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5349197.pdf
+Id: 28:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5127791
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6604511
+  Items: Custom Bid for Services - SELECTION OF VENDOR FOR IMPLEMENTATION OF CUSTOMER ENGAGEMENT AND PERSONA
+  Quantity: 1
+  Department Name and Address: Ministry of Finance, Department of Financial Services
+  Start Date: 16-07-2024 7:31 PM
+  End Date: 13-09-2024 3:00 PM
+----------------------------------------------------------------------------------------------------
+Id: 21:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5349197
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6848791
+  Items: BP9609484638,BP9609484646,BP9609484654,BP9609484662,BP9609484670,BP9609484689,BP9609484697
+  Quantity: 94
+  Department Name and Address: Ministry of Heavy Industries and Public Enterprises, Department of Heavy Industry
+  Start Date: 02-09-2024 4:22 PM
+  End Date: 12-09-2024 5:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5278549.pdf
+Id: 29:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5278549
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6770123
+  Items: Custom Bid for Services - Efficiency improvement of Cooling Water pumps at Cooling Tower and Intake
+  Quantity: 1
+  Department Name and Address: Ministry of Petroleum and Natural Gas, INDIAN OIL CORPORATION LIMITED
+  Start Date: 12-08-2024 10:24 AM
+  End Date: 13-09-2024 3:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5209975.pdf
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5304292.pdf
+Id: 24:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5304292
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6798740
+  Items: Hiring of Consultants - Milestone/Deliverable Based - Technology Consultants; Project Management, E
+  Quantity: 1
+  Department Name and Address: Ministry of Defence, Department of Defence Research & Development
+  Start Date: 23-08-2024 11:25 AM
+  End Date: 13-09-2024 10:00 AM
+----------------------------------------------------------------------------------------------------
+Id: 30:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5209975
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6694954
+  Items: DIE COAT INSULATING TYPE FOR APPLICATION ON FEEDER AREAS OF GRAVITY DIES, SUITABLE APPLICATION UP T
+  Quantity: 20
+  Department Name and Address: Ministry of Defence, Department of Defence Production
+  Start Date: 26-07-2024 4:53 PM
+  End Date: 13-09-2024 4:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5319112.pdf
+Id: 22:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5319112
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6815104
+  Items: Mat Code: W90313199949, Supply of Thermal Insulation of TIP for Ennore project (Material portion),A
+  Quantity: 4
+  Department Name and Address: Ministry of Heavy Industries and Public Enterprises, Department of Heavy Industry
+  Start Date: 23-08-2024 4:17 PM
+  End Date: 12-09-2024 5:00 PM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5323159.pdf
+Id: 25:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5323159
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6819567
+  Items: Hiring of Professionals for Application Development and Maintenance - Development and related roles
+  Quantity: 1
+  Department Name and Address: Ministry of Education, Department of Higher Education
+  Start Date: 23-08-2024 8:57 PM
+  End Date: 13-09-2024 11:00 AM
+----------------------------------------------------------------------------------------------------
+Downloaded BID file: /home/dhruvin/Web-Scrapping/keyword_search/application/BID/GEM/2024/B/5304397.pdf
+Id: 27:
+----------------------------------------------------------------------------------------------------
+  BID NO: GEM/2024/B/5304397
+  BID NO Link: https://bidplus.gem.gov.in/showbidDocument/6798861
+  Items: Pre-Assembled, Pre-Aligned, Optical Bench with magnification of 0.35X machine vision applications
+  Quantity: 3
+  Department Name and Address: PMO, Department of Atomic Energy
+  Start Date: 21-08-2024 10:12 AM
+  End Date: 13-09-2024 2:00 PM
+----------------------------------------------------------------------------------------------------
+Error navigating to the next page: Message: 
+
+Extraction completed, but not all records were processed.
+Total elapsed time: 99.54 seconds
