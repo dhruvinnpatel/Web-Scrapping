@@ -1,6 +1,9 @@
 import os
 import time
-import fitz  # Importing fitz for PDF handling
+import requests
+import logging
+import pdfplumber
+import fitz  
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -18,6 +21,7 @@ def init_driver():
         "download.directory_upgrade": True,
         "safebrowsing.enabled": True
     }
+    chrome_options.add_argument("--headless")
     chrome_options.add_experimental_option("prefs", prefs)
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
@@ -51,23 +55,34 @@ def get_current_page_number(driver):
         print(f"Error occurred while getting current page number: {e}")
         return None
 
-def extract_links_from_pdf(pdf_path, file_extensions=('.pdf', '.xlsx', '.csv', '.ods', '.txt')):
-    """Extracts and returns unique URLs from a PDF file that match specified file extensions."""
-    doc = fitz.open(pdf_path)
-    url_set = set()
+def download_file(url, save_dir, filename):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an error for bad responses
+        os.makedirs(save_dir, exist_ok=True)
+        file_path = os.path.join(save_dir, filename)
 
-    for page_num in range(doc.page_count):
-        page = doc.load_page(page_num)
-        links = page.get_links()
-        
-        for link in links:
-            if 'uri' in link:
-                uri = link['uri']
-                if uri.endswith(file_extensions):
-                    url_set.add(uri)  # Store the URI directly
-                
-    doc.close()
-    return sorted(url_set)
+        with open(file_path, 'wb') as f:
+            f.write(response.content)
+        print(f"Downloaded: {file_path}")
+    except Exception as e:
+        logging.error(f"Error downloading {url}: {e}")
+
+def extract_and_download_embedded_links(pdf_path, save_dir, file_extensions=('.pdf', '.xlsx', '.csv', '.ods', '.txt')):
+    url_set = set()  
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                links = page.hyperlinks
+                for link in links:
+                    uri = link.get('uri')
+                    if uri and uri.endswith(file_extensions) and uri not in url_set:
+                        url_set.add(uri)  # Add the unique link to the set
+                        embedded_text = uri.split('/')[-1].split('?')[0]
+                        embedded_filename = f"{embedded_text}"
+                        download_file(uri, save_dir, embedded_filename)  # Download the file
+    except Exception as e:
+        logging.error(f"Error extracting and downloading embedded links from {pdf_path}: {e}")
 
 def download_pdf(url, folder_name):
     driver = init_driver()
@@ -100,17 +115,10 @@ def download_pdf(url, folder_name):
             pdf_path = os.path.join(download_path, filename)
             os.rename(pdf_path, os.path.join(folder_name, filename))
             print(f"Downloaded {filename} to {folder_name}")
-            time.sleep(5)
-            
-            # Extract links from the PDF using the new method
-            extracted_links = extract_links_from_pdf(os.path.join(folder_name, filename))
-            if extracted_links:
-                for link in extracted_links:
-                    print(f"Extracted link from {filename}: {link}")
-                    # Download each link found in the PDF
-                    download_pdf(link, folder_name)
-            else:
-                print(f"No URLs found in {filename}.")
+
+            # Extract links from the downloaded PDF using pdfplumber
+            extract_and_download_embedded_links(os.path.join(folder_name, filename), folder_name)
+
         else:
             print(f"No PDF downloaded from {url}")
 
@@ -241,7 +249,7 @@ def process_pages(start_page, end_page, output_file):
 if __name__ == "__main__":
     start_time = time.time()  
     
-    total_pages = 3656  
+    total_pages = 6000  
     output_file = "scraped_data.txt"  
 
     process_pages(1, total_pages, output_file)
