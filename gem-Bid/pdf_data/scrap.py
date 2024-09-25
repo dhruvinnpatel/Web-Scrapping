@@ -1,5 +1,6 @@
 import os
 import time
+import fitz  # Importing fitz for PDF handling
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -10,7 +11,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def init_driver():
     chrome_options = Options()
-    # chrome_options.add_argument("--headless")  # Uncomment if you want headless mode
     chrome_options.page_load_strategy = 'eager'
     prefs = {
         "download.default_directory": os.getcwd(),
@@ -51,6 +51,24 @@ def get_current_page_number(driver):
         print(f"Error occurred while getting current page number: {e}")
         return None
 
+def extract_links_from_pdf(pdf_path, file_extensions=('.pdf', '.xlsx', '.csv', '.ods', '.txt')):
+    """Extracts and returns unique URLs from a PDF file that match specified file extensions."""
+    doc = fitz.open(pdf_path)
+    url_set = set()
+
+    for page_num in range(doc.page_count):
+        page = doc.load_page(page_num)
+        links = page.get_links()
+        
+        for link in links:
+            if 'uri' in link:
+                uri = link['uri']
+                if uri.endswith(file_extensions):
+                    url_set.add(uri)  # Store the URI directly
+                
+    doc.close()
+    return sorted(url_set)
+
 def download_pdf(url, folder_name):
     driver = init_driver()
     try:
@@ -79,8 +97,20 @@ def download_pdf(url, folder_name):
         # Move the downloaded file to the designated folder
         if filename:
             os.makedirs(folder_name, exist_ok=True)
-            os.rename(os.path.join(download_path, filename), os.path.join(folder_name, filename))
+            pdf_path = os.path.join(download_path, filename)
+            os.rename(pdf_path, os.path.join(folder_name, filename))
             print(f"Downloaded {filename} to {folder_name}")
+            time.sleep(5)
+            
+            # Extract links from the PDF using the new method
+            extracted_links = extract_links_from_pdf(os.path.join(folder_name, filename))
+            if extracted_links:
+                for link in extracted_links:
+                    print(f"Extracted link from {filename}: {link}")
+                    # Download each link found in the PDF
+                    download_pdf(link, folder_name)
+            else:
+                print(f"No URLs found in {filename}.")
         else:
             print(f"No PDF downloaded from {url}")
 
@@ -89,7 +119,6 @@ def download_pdf(url, folder_name):
 
 def extract_links_from_list_ra(driver, folder_name):
     try:
-        # Wait for the page to load and find all RA document links
         ra_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='showradocumentPdf']")
         for link in ra_links:
             href = link.get_attribute("href")
@@ -164,8 +193,6 @@ def process_pages(start_page, end_page, output_file):
                             with open(output_file, "a") as f:
                                 f.write(output)
 
-                            # folder_name = os.path.join(main_pdf_directory, f"Entry_{card_index}")
-
                             if bid_no_href:
                                 folder_name = os.path.join(main_pdf_directory, bid_no_text)
                                 download_pdf(bid_no_href, folder_name)
@@ -175,7 +202,7 @@ def process_pages(start_page, end_page, output_file):
                                 if "list-ra-schedules" in ra_no_href:
                                     driver.get(ra_no_href)
                                     print(f"Connected to RA schedules page: {ra_no_href}")
-                                    extract_links_from_list_ra(driver, folder_name)  # Pass entry folder to the function
+                                    extract_links_from_list_ra(driver, folder_name)
                                 else:
                                     download_pdf(ra_no_href, folder_name)
 
