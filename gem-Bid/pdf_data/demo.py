@@ -84,9 +84,9 @@ def extract_and_download_embedded_links(pdf_path, save_dir, bid_no_text=None, ra
                         
                         # Determine save directory based on the source PDF
                         if bid_no_text:
-                            save_dir = os.path.join("Pdf_trial_1", bid_no_text)
+                            save_dir = os.path.join("Pdf_trial", bid_no_text)
                         elif ra_no_text:
-                            save_dir = os.path.join("Pdf_trial_1", ra_no_text)
+                            save_dir = os.path.join("Pdf_trial", ra_no_text)
                             
                         download_file(uri, save_dir, embedded_filename)  # Download the file
     except Exception as e:
@@ -145,15 +145,15 @@ def extract_links_from_list_ra(driver, folder_name):
 
 def worker(bid_no_href, ra_no_href, bid_no_text, ra_no_text):
     if bid_no_href:
-        download_pdf(bid_no_href, os.path.join("Pdf_trial_1", bid_no_text))
+        download_pdf(bid_no_href, os.path.join("Pdf_trial", bid_no_text))
     if ra_no_href:
-        download_pdf(ra_no_href, os.path.join("Pdf_trial_1", ra_no_text))
+        download_pdf(ra_no_href, os.path.join("Pdf_trial", ra_no_text))
 
 def process_pages(start_page, end_page, output_file):
     driver = init_driver()
     processed_bids = set()
     index = 1
-    main_pdf_directory = "Pdf_trial_1"
+    main_pdf_directory = "Pdf_trial"
     os.makedirs(main_pdf_directory, exist_ok=True)
 
     try:
@@ -251,7 +251,7 @@ if __name__ == "__main__":
     start_time = time.time()  
     
     total_pages = 6000  
-    output_file = "trial_data_1.txt"  
+    output_file = "trial_data.txt"  
 
     process_pages(1, total_pages, output_file)
 
