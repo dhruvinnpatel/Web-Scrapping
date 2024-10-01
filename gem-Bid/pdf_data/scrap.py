@@ -21,7 +21,7 @@ def init_driver():
         "download.directory_upgrade": True,
         "safebrowsing.enabled": True
     }
-    chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--headless")
     chrome_options.add_experimental_option("prefs", prefs)
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
@@ -207,10 +207,13 @@ def process_pages(start_page, end_page, output_file):
 
                             if ra_no_href:
                                 folder_name = os.path.join(main_pdf_directory, ra_no_text)
+                                original_url = driver.current_url
                                 if "list-ra-schedules" in ra_no_href:
                                     driver.get(ra_no_href)
                                     print(f"Connected to RA schedules page: {ra_no_href}")
                                     extract_links_from_list_ra(driver, folder_name)
+                                    driver.get(original_url)
+                                    print(f"Returned to the original page: {original_url}")
                                 else:
                                     download_pdf(ra_no_href, folder_name)
 
@@ -245,11 +248,21 @@ def process_pages(start_page, end_page, output_file):
 
     finally:
         driver.quit()
+        
+def max_pages():
+    driver = init_driver()
+    driver.get('https://bidplus.gem.gov.in/all-bids')
+    wait = WebDriverWait(driver, 120)
+    pagination = wait.until(EC.presence_of_element_located((By.ID, "light-pagination")))
+    last_page = pagination.find_element(By.CSS_SELECTOR, 'a:nth-last-of-type(2)').text
+    print(last_page)
+    return int(last_page)
+
 
 if __name__ == "__main__":
     start_time = time.time()  
     
-    total_pages = 6000  
+    total_pages = max_pages()
     output_file = "scraped_data.txt"  
 
     process_pages(1, total_pages, output_file)
