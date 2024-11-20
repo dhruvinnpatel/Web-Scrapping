@@ -13,6 +13,9 @@ import math
 def init_driver():
     chrome_options = Options()
     chrome_options.add_argument("--headless")
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('start-maximized')
+    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])    
     chrome_options.page_load_strategy = 'eager'
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
@@ -47,6 +50,9 @@ def get_current_page_number(driver):
         print(f"Error occurred while getting current page number: {e}")
         return None
 
+def reload_cards(driver):
+    driver.execute_script("window.scrollTo(0, 0);")  # Scroll to the top
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")  # Scroll to the bottom
 
 def process_pages(start_page, end_page, processed_bids, index_manager, lock, output_file):
     driver = init_driver()
@@ -54,6 +60,7 @@ def process_pages(start_page, end_page, processed_bids, index_manager, lock, out
         for page_num in range(start_page, end_page + 1):
             driver.get(f"https://bidplus.gem.gov.in/all-bids")
             wait = WebDriverWait(driver, 120)
+            retry_count = 0
 
             current_page_number = get_current_page_number(driver)
             if current_page_number is None:
@@ -65,6 +72,16 @@ def process_pages(start_page, end_page, processed_bids, index_manager, lock, out
                     cards = WebDriverWait(driver, 120).until(
                         EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".card"))
                     )
+                    if not cards:
+                        print(f"No cards found on page {page_num}")
+                        reload_cards(driver)
+                        retry_count += 1
+                        if retry_count >= 3:
+                            print(f"Skipped multiple pages due to loading errors on page {page_num}.")
+                            break
+                        continue
+                    
+                    retry_count = 0
                     
                     for card in cards:
                         try:
@@ -137,8 +154,10 @@ def process_pages(start_page, end_page, processed_bids, index_manager, lock, out
 
                 except Exception as load_error:
                     print(f"Error loading cards on page {page_num}: {load_error}")
-                    traceback.print_exc()  
-                    continue
+                    reload_cards(driver)
+                    if retry_count >= 3:
+                        print(f"Failed to load cards after 3 attempts")
+                        break
 
     finally:
         driver.quit()

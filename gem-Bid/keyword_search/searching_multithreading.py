@@ -8,40 +8,21 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import requests
-import os
 
 class BidCardExtractor:
-    def __init__(self, driver_path, url, keyword):
+    def __init__(self, driver_path, url, output_file):
         chrome_options = Options()
         chrome_options.add_argument("--headless")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--disable-extensions")
-        chrome_options.add_argument("--disable-popup-blocking")
-        chrome_options.add_argument("--disable-notifications")
         chrome_options.page_load_strategy = 'eager'
-        chrome_options.add_experimental_option('prefs', {
-            "download.default_directory": os.path.join(os.getcwd(), keyword),  # Set download directory based on keyword
-            "download.prompt_for_download": False,
-            "download.directory_upgrade": True,
-            "safebrowsing.enabled": True
-        })
         service = Service(driver_path)
         self.driver = webdriver.Chrome(service=service, options=chrome_options)
         self.url = url
-        self.keyword = keyword
-        self.download_dir = os.path.join(os.getcwd(), keyword)
-        self.output_file = os.path.join(self.download_dir, f"{keyword}.txt")  # Output file in keyword directory
+        self.output_file = output_file
         self.record_summary_printed = False
         self.total_records = None
-
-        # Create directories for BID and RA
-        self.bid_dir = os.path.join(self.download_dir, "BID")
-        self.ra_dir = os.path.join(self.download_dir, "RA")
-        os.makedirs(self.bid_dir, exist_ok=True)
-        os.makedirs(self.ra_dir, exist_ok=True)
 
     def open_webpage(self):
         self.driver.get(self.url)
@@ -131,12 +112,6 @@ class BidCardExtractor:
             end_date_element = card.find_element(By.CSS_SELECTOR, "div.col-md-3 .end_date")
             end_date = end_date_element.text.strip()
 
-            # Download files
-            if bid_no_href:
-                self._download_file(bid_no_href, "BID", bid_no_text)
-            if ra_no_href:
-                self._download_file(ra_no_href, "RA", ra_no_text)
-
             card_data = [
                 f"Id: {current_card_number}:",
                 "-" * 100,
@@ -154,28 +129,6 @@ class BidCardExtractor:
             return "\n".join(filter(None, card_data))
         except Exception as card_error:
             return f"  Error extracting data for card {current_card_number}: {card_error}"
-
-    def _download_file(self, url, file_type, file_id):
-        try:
-            # Determine the file path based on file type and id
-            file_type_dir = self.bid_dir if file_type == "BID" else self.ra_dir
-            file_path = os.path.join(file_type_dir, file_id + ".pdf")
-
-            # Create directories if they do not exist
-            directory = os.path.dirname(file_path)
-            if not os.path.exists(directory):
-                os.makedirs(directory)
-
-            # Download the file
-            response = requests.get(url, stream=True)
-            response.raise_for_status()  # Check for request errors
-            with open(file_path, 'wb') as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    f.write(chunk)
-            self._print_and_write(f"Downloaded {file_type} file: {file_path}")
-        except Exception as e:
-            self._print_and_write(f"Error downloading {file_type} file from {url}: {e}")
-
 
     def extract_and_print_cards(self):
         total_card_count = 0
@@ -226,7 +179,7 @@ class BidCardExtractor:
 
                     next_button.click()
                     # Wait until new cards are loaded
-                    WebDriverWait(self.driver, 50).until(
+                    WebDriverWait(self.driver, 10).until(
                         EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".card"))
                     )
 
@@ -247,12 +200,11 @@ class BidCardExtractor:
 if __name__ == "__main__":
     url = "https://bidplus.gem.gov.in/all-bids"  # Update with the actual URL
     driver_path = ChromeDriverManager().install()
-    
-    search_keyword = input("Enter the search keyword: ").strip()  # Get user input
-    
-    extractor = BidCardExtractor(driver_path, url, search_keyword)
+    output_file = "output/demo.txt"  # Path to the output file
+    extractor = BidCardExtractor(driver_path, url, output_file)
     
     try:
+        search_keyword = input("Enter the search keyword: ").strip()  # Get user input
         start_time = time.time()
         extractor.open_webpage()
         extractor.search_bid(search_keyword)

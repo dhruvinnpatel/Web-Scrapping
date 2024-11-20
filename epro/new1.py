@@ -122,6 +122,10 @@ def scrape_tenders(driver, org_url,save_dir):
                         'Amount': amount,
                         'Link': requests.compat.urljoin(org_url, link) if link else None
                     })
+                    
+                    for tender in tender_data:
+                        if tender.get('Link'):  
+                            scrape_pdf(driver,tender['Link'], save_dir,tender['ID'])
                     # with open('tenders_data.json', 'w') as f:
                     #     json.dump(tender_data, f, indent=4)
 
@@ -135,10 +139,6 @@ def scrape_tenders(driver, org_url,save_dir):
         except Exception as e:
             print(f"Exception while navigating to the next page: {e}")
             break  
-
-        for tender in tender_data:
-                        if tender.get('Link'):  
-                            scrape_pdf(driver,tender['Link'], save_dir,tender['ID'])
     
     return tender_data
 

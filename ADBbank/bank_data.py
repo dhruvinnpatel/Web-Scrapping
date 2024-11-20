@@ -31,6 +31,16 @@ def init_driver(download_dir):
     driver.implicitly_wait(10)
     return driver
 
+def wait_for_downloads(download_folder, timeout=60):
+    seconds_passed = 0
+    while seconds_passed < timeout:
+        pdf_files = [f for f in os.listdir(download_folder) if f.endswith('.pdf')]
+        if pdf_files:
+            return pdf_files
+        time.sleep(1)
+        seconds_passed += 1
+    return []
+
 def download_pdf(entry_counter, entry_data):
     base_download_dir = os.path.join(os.getcwd(), 'tender_pdfs')
     entry_folder = os.path.join(base_download_dir, f"tender_{entry_counter}")
@@ -43,10 +53,10 @@ def download_pdf(entry_counter, entry_data):
         print("Page loaded for entry:", entry_counter)
 
         driver.execute_script("window.print();")
-        time.sleep(5)  # Wait for print dialog to appear
-
+        
         downloads_folder = os.path.expanduser('~/Downloads')
-        pdf_files = [f for f in os.listdir(downloads_folder) if f.endswith('.pdf')]
+        pdf_files = wait_for_downloads(downloads_folder)
+        
         if pdf_files:
             latest_pdf = max([os.path.join(downloads_folder, f) for f in pdf_files], key=os.path.getctime)
             new_pdf_path = os.path.join(entry_folder, f"tender_{entry_counter}.pdf")
